@@ -1,0 +1,30 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  flex-grow: 1;
+}
+
+.contentContainer {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+}

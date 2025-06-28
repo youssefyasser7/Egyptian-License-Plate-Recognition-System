@@ -1,0 +1,48 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .mainContainer {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .contentContainer {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    width: 100%;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f1f1f1;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  

@@ -1,0 +1,95 @@
+/* @import "tailwindcss" */
+
+.usersPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  nav {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .appContainer {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;  
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: calc(100vh - 80px); 
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .container h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  ul li button {
+    background-color: #ff5c5c;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  ul li button:hover {
+    background-color: #ff2d2d;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
