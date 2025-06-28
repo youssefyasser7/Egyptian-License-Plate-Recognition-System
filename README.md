@@ -75,3 +75,7 @@ Delays at compound gates due to manual checking and guest handling are common is
 ---
 
 > *This project was submitted in partial fulfillment of the requirements for the Bachelor's degree in Computer Science, Faculty of Computers and Artificial Intelligence, Helwan University – June 2025.*
+
+
+https://github.com/user-attachments/assets/0ac9545e-6f78-4a93-af23-d7ac3bf71a67
+
