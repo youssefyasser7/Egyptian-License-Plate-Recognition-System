@@ -1,5 +1,6 @@
 # Egyptian-License-Plate-Recognition-System
 # 🚘 Egyptian License Plate Recognition System (Sec-Bot)
+Note: src code is in another branch (master) to make repo more readable 
 
 This project is a full-stack AI-powered license plate recognition system tailored for Egyptian vehicle plates (Arabic letters and Indian numerals). It enables automatic gate access management in compounds, supporting both web and mobile platforms.
 
